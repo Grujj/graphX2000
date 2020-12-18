@@ -13,8 +13,10 @@ import { PieChartComponent } from './graphs-view/pie-chart/pie-chart.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 import { DataService } from './services/data.service';
+import { PyramidChartComponent } from './graphs-view/pyramid-chart/pyramid-chart.component';
 
 const appRoutes: Routes = [
+  { path: 'graphs/pyramid', component: PyramidChartComponent},
   { path: 'graphs/pie', component: PieChartComponent},
   { path: 'graphs/column', component: ColumnChartComponent},
   { path: 'graphs', component: GraphsViewComponent},
@@ -27,7 +29,8 @@ const appRoutes: Routes = [
     GraphsViewComponent,
     ColumnChartComponent,
     PieChartComponent,
-    NavbarComponent
+    NavbarComponent,
+    PyramidChartComponent
   ],
   imports: [
     BrowserModule,

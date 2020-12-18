@@ -31,7 +31,7 @@ export class ColumnChartComponent implements OnInit {
 				animationEnabled: true,
 				exportEnabled: true,
 				title: {
-					text: "Basic Column Chart in Angular"
+					text: "Column Chart"
 				},
 				data: [{
 					type: "column",
