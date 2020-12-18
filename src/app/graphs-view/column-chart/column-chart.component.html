@@ -1,0 +1,13 @@
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+<form [formGroup]="newColumnData" (ngSubmit)="onSubmitColumnData()">
+    <div class="form-group">
+      <label for="data">Data</label>
+      <input type="number" class="form-control" id="data" placeholder="Enter number" formControlName="data">
+    </div>
+    <div class="form-group">
+      <label for="name">Label</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter label" formControlName="name">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>

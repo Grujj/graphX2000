@@ -145,5 +145,8 @@
       }
     }
   },
-  "defaultProject": "graphX2000"
+  "defaultProject": "graphX2000",
+  "cli": {
+    "analytics": false
+  }
 }
